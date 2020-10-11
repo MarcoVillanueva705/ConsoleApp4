@@ -58,21 +58,29 @@ namespace ConsoleApp4
 
 
 
-//class Person
+class Person
 
-//{
+{
 
-//    private string name; //field
+    private string name; //field
 
-//    public string Name //property
+    public string Name //property
 
-//    {
 
-//        get { return name; }
-
-//        set { name = value; }
-
-//    }
+    //Automatic Properties (shorthand)
+    //you do not have to define the field 
+    //for the property, and you only have to 
+    //write get; and set; inside the property.
+    {
+        get; set;
+    }  
+    //longhand version of the above looks like this:
+    //public string Name   // property
+    //  {
+    //    get { return name; }
+    //set { name = value; }
+    //  }
+}
 
 
 
