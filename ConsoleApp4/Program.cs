@@ -111,13 +111,3 @@ class Person
 //*Flexible: the programmer can change one part of the code without affecting other parts
 
 //*Increased security of data
-
-
-
-//It is possible to inherit fields and methods from one class to another
-
-//Derived Class (child) - the class that inherits from another class
-
-//Base Class (parent) - the class being inherited from
-
-//To inherit from a class, use the : symbol.
